@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #99af9d;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title-header {
+  margin-left: 10px;
+}
+
+.nav-bar {
+  margin-right: 10px;
+}
+
+.nav-bar-links {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+  color: #000;
+}
+
+.content {
+  padding: 10px;
+}
+
+.content-title {
+  text-decoration: underline;
+}
+
+.content-body {
+  font-size: 20px;
+  font-family: sans-serif;
+}
